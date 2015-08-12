@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test-angular-unit-test</title>
+</head>
+<body>
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="scripts/DashboardController.js"></script>
+    <script src="scripts/main.js"></script>
+
+    <div ng-app="test-app">
+        <section ng-controller="DashboardController">
+            <h1>{{ author }}</h1>
+
+            <button ng-click="append('item-' + random())">Dodaj element</button>
+
+            <ul>
+                <li ng-repeat="item in list">
+                    {{ item }}
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
