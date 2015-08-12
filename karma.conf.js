@@ -15,6 +15,18 @@ module.exports = function (config) {
 
         // list of files / patterns to load in the browser
         files: [
+            // New matchers
+            'node_modules/jasmine-expect/dist/jasmine-matchers.js',
+
+            // Angular
+            'node_modules/angular/angular.js',
+            'node_modules/angular-mocks/angular-mocks.js',
+
+            // Project scripts
+            'app/scripts/*.js',
+
+            // Spec files
+            'test/spec/**/test.*.js'
         ],
 
 
