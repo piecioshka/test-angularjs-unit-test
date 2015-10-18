@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 describe('Dashboard Controller', function () {
     beforeEach(module('test-app'));
