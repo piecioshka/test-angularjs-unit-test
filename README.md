@@ -9,12 +9,11 @@ List of tools what are used:
 
 ## Setup
 
-As first, you should install `Karma`. It should be installed globalny.<br />
-Try to run `npm install -g karma-cli`.
+At first, you should install `Karma` globally, by command `npm install -g karma-cli`.
 
 ```
 npm install
-karma start
+npm test
 ```
 
 ## More
