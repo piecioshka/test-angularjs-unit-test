@@ -15,7 +15,7 @@
 
         $scope.random = function () {
             return String(Math.random()).substr(2);
-        }
+        };
     }
 
 }(this));
