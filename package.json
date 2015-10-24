@@ -1,7 +1,7 @@
 {
     "private": true,
     "scripts": {
-        "clear": "rm -rf node_modules",
+        "clear": "rm -rf node_modules/",
         "lint": "eslint app/scripts/ ; exit 0",
         "test": "karma start"
     },
@@ -11,6 +11,7 @@
     "devDependencies": {
         "angular-mocks": "^1.4.3",
         "eslint-config-piecioshka": "^1.0.9",
+        "jasmine-core": "^2.3.4",
         "jasmine-expect": "^1.22.3",
         "karma": "^0.13.11",
         "karma-chrome-launcher": "^0.2.1",
