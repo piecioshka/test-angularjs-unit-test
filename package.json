@@ -2,6 +2,7 @@
     "private": true,
     "scripts": {
         "clear": "rm -rf node_modules",
+        "lint": "eslint app/scripts/ ; exit 0",
         "test": "karma start"
     },
     "dependencies": {
@@ -13,5 +14,8 @@
         "karma": "^0.13.11",
         "karma-chrome-launcher": "^0.2.1",
         "karma-jasmine": "^0.3.6"
+    },
+    "eslintConfig": {
+        "extends": "piecioshka"
     }
 }
