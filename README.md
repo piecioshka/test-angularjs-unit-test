@@ -1,4 +1,4 @@
-# test-angular-unit-test
+# test-angularjs-unit-test
 
 List of tools what are used:
 
