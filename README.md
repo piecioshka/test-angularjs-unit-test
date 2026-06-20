@@ -19,3 +19,7 @@ npm test
 ## More
 
 I you are interested `unit test` in AngularJS please see https://docs.angularjs.org/guide/unit-testing.
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
