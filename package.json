@@ -19,5 +19,6 @@
     },
     "eslintConfig": {
         "extends": "piecioshka"
-    }
+    },
+    "license": "MIT"
 }
