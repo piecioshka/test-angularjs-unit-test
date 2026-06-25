@@ -22,4 +22,4 @@ I you are interested `unit test` in AngularJS please see https://docs.angularjs.
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2026
+[The MIT License](https://piecioshka.mit-license.org) @ 2026
